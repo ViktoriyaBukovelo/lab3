@@ -4,4 +4,13 @@ public class Car {
 
     private String engineName;
 
+    public Car(int wheels, int doors, String engineName) {
+        this.wheels = wheels;
+        this.doors = doors;
+        this.engineName = engineName;
+    }
+
+    public Car() {
+
+    }
 }
